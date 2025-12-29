@@ -1,0 +1,6 @@
+POST {{API_URL}}/{{ROLE}}
+Content-Type: application/json
+
+{
+  "name": "GUEST"
+}

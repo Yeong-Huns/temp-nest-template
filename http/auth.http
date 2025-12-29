@@ -1,0 +1,25 @@
+POST {{API_URL}}/{{AUTH}}/sign-up
+Content-Type: application/json
+
+{
+  "email": "qqqq@naver.com",
+  "password": "Qwer1234!",
+  "name": "홍길동"
+}
+
+###
+POST {{API_URL}}/{{AUTH}}/sign-in
+Content-Type: application/json
+
+{
+  "email": "qqqq@naver.com",
+  "password": "qwer1234"
+}
+
+###
+POST {{API_URL}}/{{AUTH}}/sign-out
+Content-Type: application/json
+
+###
+POST {{API_URL}}/{{AUTH}}/refresh-access
+Content-Type: application/json
